@@ -4,7 +4,7 @@ require 'rails/test_help'
 require 'active_record'
 require 'capybara/rails'
 
-Capybara.default_driver = :selenium
+# Capybara.default_driver = :selenium
 
 class ActiveSupport::TestCase
   
